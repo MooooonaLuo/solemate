@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDAAFEFD222081FE00EA6E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFEFC222081FE00EA6E70 /* AppDelegate.swift */; };
+		CDAAFEFF222081FE00EA6E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFEFE222081FE00EA6E70 /* ViewController.swift */; };
+		CDAAFF02222081FE00EA6E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF00222081FE00EA6E70 /* Main.storyboard */; };
+		CDAAFF04222081FF00EA6E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF03222081FF00EA6E70 /* Assets.xcassets */; };
+		CDAAFF07222081FF00EA6E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF05222081FF00EA6E70 /* LaunchScreen.storyboard */; };
+		CDAAFF12222081FF00EA6E70 /* soleMate_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF11222081FF00EA6E70 /* soleMate_appTests.swift */; };
+		CDAAFF1D222081FF00EA6E70 /* soleMate_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF1C222081FF00EA6E70 /* soleMate_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAAFF0E222081FF00EA6E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAAFEF1222081FD00EA6E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAAFEF8222081FD00EA6E70;
+			remoteInfo = soleMate_app;
+		};
+		CDAAFF19222081FF00EA6E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAAFEF1222081FD00EA6E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAAFEF8222081FD00EA6E70;
+			remoteInfo = soleMate_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDAAFEF9222081FE00EA6E70 /* soleMate_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soleMate_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFEFC222081FE00EA6E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDAAFEFE222081FE00EA6E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDAAFF01222081FE00EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDAAFF03222081FF00EA6E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAAFF06222081FF00EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDAAFF08222081FF00EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAAFF0D222081FF00EA6E70 /* soleMate_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soleMate_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFF11222081FF00EA6E70 /* soleMate_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soleMate_appTests.swift; sourceTree = "<group>"; };
+		CDAAFF13222081FF00EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAAFF18222081FF00EA6E70 /* soleMate_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soleMate_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFF1C222081FF00EA6E70 /* soleMate_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soleMate_appUITests.swift; sourceTree = "<group>"; };
+		CDAAFF1E222081FF00EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDAAFEF6222081FD00EA6E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFF0A222081FF00EA6E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFF15222081FF00EA6E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDAAFEF0222081FD00EA6E70 = {
+			isa = PBXGroup;
+			children = (
+				CDAAFEFB222081FE00EA6E70 /* soleMate_app */,
+				CDAAFF10222081FF00EA6E70 /* soleMate_appTests */,
+				CDAAFF1B222081FF00EA6E70 /* soleMate_appUITests */,
+				CDAAFEFA222081FE00EA6E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAAFEFA222081FE00EA6E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFEF9222081FE00EA6E70 /* soleMate_app.app */,
+				CDAAFF0D222081FF00EA6E70 /* soleMate_appTests.xctest */,
+				CDAAFF18222081FF00EA6E70 /* soleMate_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAAFEFB222081FE00EA6E70 /* soleMate_app */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFEFC222081FE00EA6E70 /* AppDelegate.swift */,
+				CDAAFEFE222081FE00EA6E70 /* ViewController.swift */,
+				CDAAFF00222081FE00EA6E70 /* Main.storyboard */,
+				CDAAFF03222081FF00EA6E70 /* Assets.xcassets */,
+				CDAAFF05222081FF00EA6E70 /* LaunchScreen.storyboard */,
+				CDAAFF08222081FF00EA6E70 /* Info.plist */,
+			);
+			path = soleMate_app;
+			sourceTree = "<group>";
+		};
+		CDAAFF10222081FF00EA6E70 /* soleMate_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFF11222081FF00EA6E70 /* soleMate_appTests.swift */,
+				CDAAFF13222081FF00EA6E70 /* Info.plist */,
+			);
+			path = soleMate_appTests;
+			sourceTree = "<group>";
+		};
+		CDAAFF1B222081FF00EA6E70 /* soleMate_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFF1C222081FF00EA6E70 /* soleMate_appUITests.swift */,
+				CDAAFF1E222081FF00EA6E70 /* Info.plist */,
+			);
+			path = soleMate_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDAAFEF8222081FD00EA6E70 /* soleMate_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAAFF21222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_app" */;
+			buildPhases = (
+				CDAAFEF5222081FD00EA6E70 /* Sources */,
+				CDAAFEF6222081FD00EA6E70 /* Frameworks */,
+				CDAAFEF7222081FD00EA6E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soleMate_app;
+			productName = soleMate_app;
+			productReference = CDAAFEF9222081FE00EA6E70 /* soleMate_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAAFF0C222081FF00EA6E70 /* soleMate_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAAFF24222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appTests" */;
+			buildPhases = (
+				CDAAFF09222081FF00EA6E70 /* Sources */,
+				CDAAFF0A222081FF00EA6E70 /* Frameworks */,
+				CDAAFF0B222081FF00EA6E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAAFF0F222081FF00EA6E70 /* PBXTargetDependency */,
+			);
+			name = soleMate_appTests;
+			productName = soleMate_appTests;
+			productReference = CDAAFF0D222081FF00EA6E70 /* soleMate_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDAAFF17222081FF00EA6E70 /* soleMate_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAAFF27222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appUITests" */;
+			buildPhases = (
+				CDAAFF14222081FF00EA6E70 /* Sources */,
+				CDAAFF15222081FF00EA6E70 /* Frameworks */,
+				CDAAFF16222081FF00EA6E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAAFF1A222081FF00EA6E70 /* PBXTargetDependency */,
+			);
+			name = soleMate_appUITests;
+			productName = soleMate_appUITests;
+			productReference = CDAAFF18222081FF00EA6E70 /* soleMate_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAAFEF1222081FD00EA6E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = soleMate;
+				TargetAttributes = {
+					CDAAFEF8222081FD00EA6E70 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDAAFF0C222081FF00EA6E70 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDAAFEF8222081FD00EA6E70;
+					};
+					CDAAFF17222081FF00EA6E70 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDAAFEF8222081FD00EA6E70;
+					};
+				};
+			};
+			buildConfigurationList = CDAAFEF4222081FD00EA6E70 /* Build configuration list for PBXProject "soleMate_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDAAFEF0222081FD00EA6E70;
+			productRefGroup = CDAAFEFA222081FE00EA6E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAAFEF8222081FD00EA6E70 /* soleMate_app */,
+				CDAAFF0C222081FF00EA6E70 /* soleMate_appTests */,
+				CDAAFF17222081FF00EA6E70 /* soleMate_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDAAFEF7222081FD00EA6E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFF07222081FF00EA6E70 /* LaunchScreen.storyboard in Resources */,
+				CDAAFF04222081FF00EA6E70 /* Assets.xcassets in Resources */,
+				CDAAFF02222081FE00EA6E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFF0B222081FF00EA6E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFF16222081FF00EA6E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDAAFEF5222081FD00EA6E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFEFF222081FE00EA6E70 /* ViewController.swift in Sources */,
+				CDAAFEFD222081FE00EA6E70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFF09222081FF00EA6E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFF12222081FF00EA6E70 /* soleMate_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFF14222081FF00EA6E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFF1D222081FF00EA6E70 /* soleMate_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDAAFF0F222081FF00EA6E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAAFEF8222081FD00EA6E70 /* soleMate_app */;
+			targetProxy = CDAAFF0E222081FF00EA6E70 /* PBXContainerItemProxy */;
+		};
+		CDAAFF1A222081FF00EA6E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAAFEF8222081FD00EA6E70 /* soleMate_app */;
+			targetProxy = CDAAFF19222081FF00EA6E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDAAFF00222081FE00EA6E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAAFF01222081FE00EA6E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDAAFF05222081FF00EA6E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAAFF06222081FF00EA6E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDAAFF1F222081FF00EA6E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDAAFF20222081FF00EA6E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDAAFF22222081FF00EA6E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soleMate_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDAAFF23222081FF00EA6E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soleMate_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDAAFF25222081FF00EA6E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soleMate_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soleMate_app.app/soleMate_app";
+			};
+			name = Debug;
+		};
+		CDAAFF26222081FF00EA6E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soleMate_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soleMate_app.app/soleMate_app";
+			};
+			name = Release;
+		};
+		CDAAFF28222081FF00EA6E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soleMate_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soleMate_app;
+			};
+			name = Debug;
+		};
+		CDAAFF29222081FF00EA6E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soleMate_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soleMate_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDAAFEF4222081FD00EA6E70 /* Build configuration list for PBXProject "soleMate_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAAFF1F222081FF00EA6E70 /* Debug */,
+				CDAAFF20222081FF00EA6E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAAFF21222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAAFF22222081FF00EA6E70 /* Debug */,
+				CDAAFF23222081FF00EA6E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAAFF24222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAAFF25222081FF00EA6E70 /* Debug */,
+				CDAAFF26222081FF00EA6E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAAFF27222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAAFF28222081FF00EA6E70 /* Debug */,
+				CDAAFF29222081FF00EA6E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDAAFEF1222081FD00EA6E70 /* Project object */;
+}
