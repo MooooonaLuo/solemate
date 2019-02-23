@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:soleMate_app.xcodeproj">
+      location = "self:Solemate_app.xcodeproj">
    </FileRef>
 </Workspace>

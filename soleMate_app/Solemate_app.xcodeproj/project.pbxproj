@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDAAFEFD222081FE00EA6E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFEFC222081FE00EA6E70 /* AppDelegate.swift */; };
-		CDAAFEFF222081FE00EA6E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFEFE222081FE00EA6E70 /* ViewController.swift */; };
-		CDAAFF02222081FE00EA6E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF00222081FE00EA6E70 /* Main.storyboard */; };
-		CDAAFF04222081FF00EA6E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF03222081FF00EA6E70 /* Assets.xcassets */; };
-		CDAAFF07222081FF00EA6E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF05222081FF00EA6E70 /* LaunchScreen.storyboard */; };
-		CDAAFF12222081FF00EA6E70 /* soleMate_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF11222081FF00EA6E70 /* soleMate_appTests.swift */; };
-		CDAAFF1D222081FF00EA6E70 /* soleMate_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF1C222081FF00EA6E70 /* soleMate_appUITests.swift */; };
+		CDAAFF412220D13600EA6E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF402220D13600EA6E70 /* AppDelegate.swift */; };
+		CDAAFF432220D13600EA6E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF422220D13600EA6E70 /* ViewController.swift */; };
+		CDAAFF462220D13600EA6E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF442220D13600EA6E70 /* Main.storyboard */; };
+		CDAAFF482220D13600EA6E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF472220D13600EA6E70 /* Assets.xcassets */; };
+		CDAAFF4B2220D13600EA6E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */; };
+		CDAAFF562220D13600EA6E70 /* Solemate_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF552220D13600EA6E70 /* Solemate_appTests.swift */; };
+		CDAAFF612220D13600EA6E70 /* Solemate_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CDAAFF0E222081FF00EA6E70 /* PBXContainerItemProxy */ = {
+		CDAAFF522220D13600EA6E70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CDAAFEF1222081FD00EA6E70 /* Project object */;
+			containerPortal = CDAAFF352220D13600EA6E70 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CDAAFEF8222081FD00EA6E70;
-			remoteInfo = soleMate_app;
+			remoteGlobalIDString = CDAAFF3C2220D13600EA6E70;
+			remoteInfo = Solemate_app;
 		};
-		CDAAFF19222081FF00EA6E70 /* PBXContainerItemProxy */ = {
+		CDAAFF5D2220D13600EA6E70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CDAAFEF1222081FD00EA6E70 /* Project object */;
+			containerPortal = CDAAFF352220D13600EA6E70 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CDAAFEF8222081FD00EA6E70;
-			remoteInfo = soleMate_app;
+			remoteGlobalIDString = CDAAFF3C2220D13600EA6E70;
+			remoteInfo = Solemate_app;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CDAAFEF9222081FE00EA6E70 /* soleMate_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soleMate_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDAAFEFC222081FE00EA6E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDAAFEFE222081FE00EA6E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDAAFF01222081FE00EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDAAFF03222081FF00EA6E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDAAFF06222081FF00EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CDAAFF08222081FF00EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDAAFF0D222081FF00EA6E70 /* soleMate_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soleMate_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDAAFF11222081FF00EA6E70 /* soleMate_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soleMate_appTests.swift; sourceTree = "<group>"; };
-		CDAAFF13222081FF00EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDAAFF18222081FF00EA6E70 /* soleMate_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soleMate_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDAAFF1C222081FF00EA6E70 /* soleMate_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soleMate_appUITests.swift; sourceTree = "<group>"; };
-		CDAAFF1E222081FF00EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAAFF3D2220D13600EA6E70 /* Solemate_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solemate_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFF402220D13600EA6E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDAAFF422220D13600EA6E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDAAFF452220D13600EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDAAFF472220D13600EA6E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAAFF4A2220D13600EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDAAFF4C2220D13600EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAAFF512220D13600EA6E70 /* Solemate_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solemate_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFF552220D13600EA6E70 /* Solemate_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solemate_appTests.swift; sourceTree = "<group>"; };
+		CDAAFF572220D13600EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAAFF5C2220D13600EA6E70 /* Solemate_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solemate_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solemate_appUITests.swift; sourceTree = "<group>"; };
+		CDAAFF622220D13600EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDAAFEF6222081FD00EA6E70 /* Frameworks */ = {
+		CDAAFF3A2220D13600EA6E70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDAAFF0A222081FF00EA6E70 /* Frameworks */ = {
+		CDAAFF4E2220D13600EA6E70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDAAFF15222081FF00EA6E70 /* Frameworks */ = {
+		CDAAFF592220D13600EA6E70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDAAFEF0222081FD00EA6E70 = {
+		CDAAFF342220D13600EA6E70 = {
 			isa = PBXGroup;
 			children = (
-				CDAAFEFB222081FE00EA6E70 /* soleMate_app */,
-				CDAAFF10222081FF00EA6E70 /* soleMate_appTests */,
-				CDAAFF1B222081FF00EA6E70 /* soleMate_appUITests */,
-				CDAAFEFA222081FE00EA6E70 /* Products */,
+				CDAAFF3F2220D13600EA6E70 /* Solemate_app */,
+				CDAAFF542220D13600EA6E70 /* Solemate_appTests */,
+				CDAAFF5F2220D13600EA6E70 /* Solemate_appUITests */,
+				CDAAFF3E2220D13600EA6E70 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDAAFEFA222081FE00EA6E70 /* Products */ = {
+		CDAAFF3E2220D13600EA6E70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDAAFEF9222081FE00EA6E70 /* soleMate_app.app */,
-				CDAAFF0D222081FF00EA6E70 /* soleMate_appTests.xctest */,
-				CDAAFF18222081FF00EA6E70 /* soleMate_appUITests.xctest */,
+				CDAAFF3D2220D13600EA6E70 /* Solemate_app.app */,
+				CDAAFF512220D13600EA6E70 /* Solemate_appTests.xctest */,
+				CDAAFF5C2220D13600EA6E70 /* Solemate_appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDAAFEFB222081FE00EA6E70 /* soleMate_app */ = {
+		CDAAFF3F2220D13600EA6E70 /* Solemate_app */ = {
 			isa = PBXGroup;
 			children = (
-				CDAAFEFC222081FE00EA6E70 /* AppDelegate.swift */,
-				CDAAFEFE222081FE00EA6E70 /* ViewController.swift */,
-				CDAAFF00222081FE00EA6E70 /* Main.storyboard */,
-				CDAAFF03222081FF00EA6E70 /* Assets.xcassets */,
-				CDAAFF05222081FF00EA6E70 /* LaunchScreen.storyboard */,
-				CDAAFF08222081FF00EA6E70 /* Info.plist */,
+				CDAAFF402220D13600EA6E70 /* AppDelegate.swift */,
+				CDAAFF422220D13600EA6E70 /* ViewController.swift */,
+				CDAAFF442220D13600EA6E70 /* Main.storyboard */,
+				CDAAFF472220D13600EA6E70 /* Assets.xcassets */,
+				CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */,
+				CDAAFF4C2220D13600EA6E70 /* Info.plist */,
 			);
-			path = soleMate_app;
+			path = Solemate_app;
 			sourceTree = "<group>";
 		};
-		CDAAFF10222081FF00EA6E70 /* soleMate_appTests */ = {
+		CDAAFF542220D13600EA6E70 /* Solemate_appTests */ = {
 			isa = PBXGroup;
 			children = (
-				CDAAFF11222081FF00EA6E70 /* soleMate_appTests.swift */,
-				CDAAFF13222081FF00EA6E70 /* Info.plist */,
+				CDAAFF552220D13600EA6E70 /* Solemate_appTests.swift */,
+				CDAAFF572220D13600EA6E70 /* Info.plist */,
 			);
-			path = soleMate_appTests;
+			path = Solemate_appTests;
 			sourceTree = "<group>";
 		};
-		CDAAFF1B222081FF00EA6E70 /* soleMate_appUITests */ = {
+		CDAAFF5F2220D13600EA6E70 /* Solemate_appUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CDAAFF1C222081FF00EA6E70 /* soleMate_appUITests.swift */,
-				CDAAFF1E222081FF00EA6E70 /* Info.plist */,
+				CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */,
+				CDAAFF622220D13600EA6E70 /* Info.plist */,
 			);
-			path = soleMate_appUITests;
+			path = Solemate_appUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDAAFEF8222081FD00EA6E70 /* soleMate_app */ = {
+		CDAAFF3C2220D13600EA6E70 /* Solemate_app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDAAFF21222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_app" */;
+			buildConfigurationList = CDAAFF652220D13600EA6E70 /* Build configuration list for PBXNativeTarget "Solemate_app" */;
 			buildPhases = (
-				CDAAFEF5222081FD00EA6E70 /* Sources */,
-				CDAAFEF6222081FD00EA6E70 /* Frameworks */,
-				CDAAFEF7222081FD00EA6E70 /* Resources */,
+				CDAAFF392220D13600EA6E70 /* Sources */,
+				CDAAFF3A2220D13600EA6E70 /* Frameworks */,
+				CDAAFF3B2220D13600EA6E70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = soleMate_app;
-			productName = soleMate_app;
-			productReference = CDAAFEF9222081FE00EA6E70 /* soleMate_app.app */;
+			name = Solemate_app;
+			productName = Solemate_app;
+			productReference = CDAAFF3D2220D13600EA6E70 /* Solemate_app.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CDAAFF0C222081FF00EA6E70 /* soleMate_appTests */ = {
+		CDAAFF502220D13600EA6E70 /* Solemate_appTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDAAFF24222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appTests" */;
+			buildConfigurationList = CDAAFF682220D13600EA6E70 /* Build configuration list for PBXNativeTarget "Solemate_appTests" */;
 			buildPhases = (
-				CDAAFF09222081FF00EA6E70 /* Sources */,
-				CDAAFF0A222081FF00EA6E70 /* Frameworks */,
-				CDAAFF0B222081FF00EA6E70 /* Resources */,
+				CDAAFF4D2220D13600EA6E70 /* Sources */,
+				CDAAFF4E2220D13600EA6E70 /* Frameworks */,
+				CDAAFF4F2220D13600EA6E70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CDAAFF0F222081FF00EA6E70 /* PBXTargetDependency */,
+				CDAAFF532220D13600EA6E70 /* PBXTargetDependency */,
 			);
-			name = soleMate_appTests;
-			productName = soleMate_appTests;
-			productReference = CDAAFF0D222081FF00EA6E70 /* soleMate_appTests.xctest */;
+			name = Solemate_appTests;
+			productName = Solemate_appTests;
+			productReference = CDAAFF512220D13600EA6E70 /* Solemate_appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CDAAFF17222081FF00EA6E70 /* soleMate_appUITests */ = {
+		CDAAFF5B2220D13600EA6E70 /* Solemate_appUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDAAFF27222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appUITests" */;
+			buildConfigurationList = CDAAFF6B2220D13600EA6E70 /* Build configuration list for PBXNativeTarget "Solemate_appUITests" */;
 			buildPhases = (
-				CDAAFF14222081FF00EA6E70 /* Sources */,
-				CDAAFF15222081FF00EA6E70 /* Frameworks */,
-				CDAAFF16222081FF00EA6E70 /* Resources */,
+				CDAAFF582220D13600EA6E70 /* Sources */,
+				CDAAFF592220D13600EA6E70 /* Frameworks */,
+				CDAAFF5A2220D13600EA6E70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CDAAFF1A222081FF00EA6E70 /* PBXTargetDependency */,
+				CDAAFF5E2220D13600EA6E70 /* PBXTargetDependency */,
 			);
-			name = soleMate_appUITests;
-			productName = soleMate_appUITests;
-			productReference = CDAAFF18222081FF00EA6E70 /* soleMate_appUITests.xctest */;
+			name = Solemate_appUITests;
+			productName = Solemate_appUITests;
+			productReference = CDAAFF5C2220D13600EA6E70 /* Solemate_appUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDAAFEF1222081FD00EA6E70 /* Project object */ = {
+		CDAAFF352220D13600EA6E70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = soleMate;
 				TargetAttributes = {
-					CDAAFEF8222081FD00EA6E70 = {
+					CDAAFF3C2220D13600EA6E70 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					CDAAFF0C222081FF00EA6E70 = {
+					CDAAFF502220D13600EA6E70 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = CDAAFEF8222081FD00EA6E70;
+						TestTargetID = CDAAFF3C2220D13600EA6E70;
 					};
-					CDAAFF17222081FF00EA6E70 = {
+					CDAAFF5B2220D13600EA6E70 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = CDAAFEF8222081FD00EA6E70;
+						TestTargetID = CDAAFF3C2220D13600EA6E70;
 					};
 				};
 			};
-			buildConfigurationList = CDAAFEF4222081FD00EA6E70 /* Build configuration list for PBXProject "soleMate_app" */;
+			buildConfigurationList = CDAAFF382220D13600EA6E70 /* Build configuration list for PBXProject "Solemate_app" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = CDAAFEF0222081FD00EA6E70;
-			productRefGroup = CDAAFEFA222081FE00EA6E70 /* Products */;
+			mainGroup = CDAAFF342220D13600EA6E70;
+			productRefGroup = CDAAFF3E2220D13600EA6E70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDAAFEF8222081FD00EA6E70 /* soleMate_app */,
-				CDAAFF0C222081FF00EA6E70 /* soleMate_appTests */,
-				CDAAFF17222081FF00EA6E70 /* soleMate_appUITests */,
+				CDAAFF3C2220D13600EA6E70 /* Solemate_app */,
+				CDAAFF502220D13600EA6E70 /* Solemate_appTests */,
+				CDAAFF5B2220D13600EA6E70 /* Solemate_appUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CDAAFEF7222081FD00EA6E70 /* Resources */ = {
+		CDAAFF3B2220D13600EA6E70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAAFF07222081FF00EA6E70 /* LaunchScreen.storyboard in Resources */,
-				CDAAFF04222081FF00EA6E70 /* Assets.xcassets in Resources */,
-				CDAAFF02222081FE00EA6E70 /* Main.storyboard in Resources */,
+				CDAAFF4B2220D13600EA6E70 /* LaunchScreen.storyboard in Resources */,
+				CDAAFF482220D13600EA6E70 /* Assets.xcassets in Resources */,
+				CDAAFF462220D13600EA6E70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDAAFF0B222081FF00EA6E70 /* Resources */ = {
+		CDAAFF4F2220D13600EA6E70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDAAFF16222081FF00EA6E70 /* Resources */ = {
+		CDAAFF5A2220D13600EA6E70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDAAFEF5222081FD00EA6E70 /* Sources */ = {
+		CDAAFF392220D13600EA6E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAAFEFF222081FE00EA6E70 /* ViewController.swift in Sources */,
-				CDAAFEFD222081FE00EA6E70 /* AppDelegate.swift in Sources */,
+				CDAAFF432220D13600EA6E70 /* ViewController.swift in Sources */,
+				CDAAFF412220D13600EA6E70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDAAFF09222081FF00EA6E70 /* Sources */ = {
+		CDAAFF4D2220D13600EA6E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAAFF12222081FF00EA6E70 /* soleMate_appTests.swift in Sources */,
+				CDAAFF562220D13600EA6E70 /* Solemate_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDAAFF14222081FF00EA6E70 /* Sources */ = {
+		CDAAFF582220D13600EA6E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAAFF1D222081FF00EA6E70 /* soleMate_appUITests.swift in Sources */,
+				CDAAFF612220D13600EA6E70 /* Solemate_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CDAAFF0F222081FF00EA6E70 /* PBXTargetDependency */ = {
+		CDAAFF532220D13600EA6E70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDAAFEF8222081FD00EA6E70 /* soleMate_app */;
-			targetProxy = CDAAFF0E222081FF00EA6E70 /* PBXContainerItemProxy */;
+			target = CDAAFF3C2220D13600EA6E70 /* Solemate_app */;
+			targetProxy = CDAAFF522220D13600EA6E70 /* PBXContainerItemProxy */;
 		};
-		CDAAFF1A222081FF00EA6E70 /* PBXTargetDependency */ = {
+		CDAAFF5E2220D13600EA6E70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDAAFEF8222081FD00EA6E70 /* soleMate_app */;
-			targetProxy = CDAAFF19222081FF00EA6E70 /* PBXContainerItemProxy */;
+			target = CDAAFF3C2220D13600EA6E70 /* Solemate_app */;
+			targetProxy = CDAAFF5D2220D13600EA6E70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CDAAFF00222081FE00EA6E70 /* Main.storyboard */ = {
+		CDAAFF442220D13600EA6E70 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDAAFF01222081FE00EA6E70 /* Base */,
+				CDAAFF452220D13600EA6E70 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CDAAFF05222081FF00EA6E70 /* LaunchScreen.storyboard */ = {
+		CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDAAFF06222081FF00EA6E70 /* Base */,
+				CDAAFF4A2220D13600EA6E70 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CDAAFF1F222081FF00EA6E70 /* Debug */ = {
+		CDAAFF632220D13600EA6E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		CDAAFF20222081FF00EA6E70 /* Release */ = {
+		CDAAFF642220D13600EA6E70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,158 +428,158 @@
 			};
 			name = Release;
 		};
-		CDAAFF22222081FF00EA6E70 /* Debug */ = {
+		CDAAFF662220D13600EA6E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = soleMate_app/Info.plist;
+				INFOPLIST_FILE = Solemate_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CDAAFF23222081FF00EA6E70 /* Release */ = {
+		CDAAFF672220D13600EA6E70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = soleMate_app/Info.plist;
+				INFOPLIST_FILE = Solemate_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CDAAFF25222081FF00EA6E70 /* Debug */ = {
+		CDAAFF692220D13600EA6E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = soleMate_appTests/Info.plist;
+				INFOPLIST_FILE = Solemate_appTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soleMate_app.app/soleMate_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solemate_app.app/Solemate_app";
 			};
 			name = Debug;
 		};
-		CDAAFF26222081FF00EA6E70 /* Release */ = {
+		CDAAFF6A2220D13600EA6E70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = soleMate_appTests/Info.plist;
+				INFOPLIST_FILE = Solemate_appTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soleMate_app.app/soleMate_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solemate_app.app/Solemate_app";
 			};
 			name = Release;
 		};
-		CDAAFF28222081FF00EA6E70 /* Debug */ = {
+		CDAAFF6C2220D13600EA6E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = soleMate_appUITests/Info.plist;
+				INFOPLIST_FILE = Solemate_appUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = soleMate_app;
+				TEST_TARGET_NAME = Solemate_app;
 			};
 			name = Debug;
 		};
-		CDAAFF29222081FF00EA6E70 /* Release */ = {
+		CDAAFF6D2220D13600EA6E70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = soleMate_appUITests/Info.plist;
+				INFOPLIST_FILE = Solemate_appUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.soleMate-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = soleMate_app;
+				TEST_TARGET_NAME = Solemate_app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDAAFEF4222081FD00EA6E70 /* Build configuration list for PBXProject "soleMate_app" */ = {
+		CDAAFF382220D13600EA6E70 /* Build configuration list for PBXProject "Solemate_app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDAAFF1F222081FF00EA6E70 /* Debug */,
-				CDAAFF20222081FF00EA6E70 /* Release */,
+				CDAAFF632220D13600EA6E70 /* Debug */,
+				CDAAFF642220D13600EA6E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDAAFF21222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_app" */ = {
+		CDAAFF652220D13600EA6E70 /* Build configuration list for PBXNativeTarget "Solemate_app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDAAFF22222081FF00EA6E70 /* Debug */,
-				CDAAFF23222081FF00EA6E70 /* Release */,
+				CDAAFF662220D13600EA6E70 /* Debug */,
+				CDAAFF672220D13600EA6E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDAAFF24222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appTests" */ = {
+		CDAAFF682220D13600EA6E70 /* Build configuration list for PBXNativeTarget "Solemate_appTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDAAFF25222081FF00EA6E70 /* Debug */,
-				CDAAFF26222081FF00EA6E70 /* Release */,
+				CDAAFF692220D13600EA6E70 /* Debug */,
+				CDAAFF6A2220D13600EA6E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDAAFF27222081FF00EA6E70 /* Build configuration list for PBXNativeTarget "soleMate_appUITests" */ = {
+		CDAAFF6B2220D13600EA6E70 /* Build configuration list for PBXNativeTarget "Solemate_appUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDAAFF28222081FF00EA6E70 /* Debug */,
-				CDAAFF29222081FF00EA6E70 /* Release */,
+				CDAAFF6C2220D13600EA6E70 /* Debug */,
+				CDAAFF6D2220D13600EA6E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDAAFEF1222081FD00EA6E70 /* Project object */;
+	rootObject = CDAAFF352220D13600EA6E70 /* Project object */;
 }

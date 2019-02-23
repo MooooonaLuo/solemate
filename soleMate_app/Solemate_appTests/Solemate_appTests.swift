@@ -1,15 +1,15 @@
 //
-//  soleMate_appTests.swift
-//  soleMate_appTests
+//  Solemate_appTests.swift
+//  Solemate_appTests
 //
 //  Created by patrick on 2019/2/22.
 //  Copyright © 2019 soleMate. All rights reserved.
 //
 
 import XCTest
-@testable import soleMate_app
+@testable import Solemate_app
 
-class soleMate_appTests: XCTestCase {
+class Solemate_appTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

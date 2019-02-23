@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  soleMate_app
+//  Solemate_app
 //
 //  Created by patrick on 2019/2/22.
 //  Copyright © 2019 soleMate. All rights reserved.
