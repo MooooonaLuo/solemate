@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD7F4F7E2227BA9F00F8015F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F4F7D2227BA9F00F8015F /* InformationViewController.swift */; };
+		CD7F4F802227C4D000F8015F /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F4F7F2227C4D000F8015F /* profileViewController.swift */; };
 		CDAAFF412220D13600EA6E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF402220D13600EA6E70 /* AppDelegate.swift */; };
 		CDAAFF432220D13600EA6E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF422220D13600EA6E70 /* ViewController.swift */; };
 		CDAAFF462220D13600EA6E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF442220D13600EA6E70 /* Main.storyboard */; };
@@ -14,7 +16,6 @@
 		CDAAFF4B2220D13600EA6E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */; };
 		CDAAFF562220D13600EA6E70 /* Solemate_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF552220D13600EA6E70 /* Solemate_appTests.swift */; };
 		CDAAFF612220D13600EA6E70 /* Solemate_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */; };
-		F9A8EBC922275A50000A62B8 /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A8EBC822275A50000A62B8 /* InformationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD7F4F7D2227BA9F00F8015F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		CD7F4F7F2227C4D000F8015F /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		CDAAFF3D2220D13600EA6E70 /* Solemate_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solemate_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAAFF402220D13600EA6E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDAAFF422220D13600EA6E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 		CDAAFF5C2220D13600EA6E70 /* Solemate_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solemate_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solemate_appUITests.swift; sourceTree = "<group>"; };
 		CDAAFF622220D13600EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9A8EBC822275A50000A62B8 /* InformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		CDAAFF3F2220D13600EA6E70 /* Solemate_app */ = {
 			isa = PBXGroup;
 			children = (
-				F9A8EBC822275A50000A62B8 /* InformationTableViewCell.swift */,
+				CD7F4F7D2227BA9F00F8015F /* InformationViewController.swift */,
 				CDAAFF402220D13600EA6E70 /* AppDelegate.swift */,
 				CDAAFF422220D13600EA6E70 /* ViewController.swift */,
 				CDAAFF442220D13600EA6E70 /* Main.storyboard */,
+				CD7F4F7F2227C4D000F8015F /* profileViewController.swift */,
 				CDAAFF472220D13600EA6E70 /* Assets.xcassets */,
 				CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */,
 				CDAAFF4C2220D13600EA6E70 /* Info.plist */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9A8EBC922275A50000A62B8 /* InformationTableViewCell.swift in Sources */,
 				CDAAFF432220D13600EA6E70 /* ViewController.swift in Sources */,
 				CDAAFF412220D13600EA6E70 /* AppDelegate.swift in Sources */,
+				CD7F4F802227C4D000F8015F /* profileViewController.swift in Sources */,
+				CD7F4F7E2227BA9F00F8015F /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Solemate_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Solemate_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.soleMate.Solemate-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
