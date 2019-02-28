@@ -14,6 +14,7 @@
 		CDAAFF4B2220D13600EA6E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */; };
 		CDAAFF562220D13600EA6E70 /* Solemate_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF552220D13600EA6E70 /* Solemate_appTests.swift */; };
 		CDAAFF612220D13600EA6E70 /* Solemate_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */; };
+		F9A8EBC922275A50000A62B8 /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A8EBC822275A50000A62B8 /* InformationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CDAAFF5C2220D13600EA6E70 /* Solemate_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solemate_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solemate_appUITests.swift; sourceTree = "<group>"; };
 		CDAAFF622220D13600EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A8EBC822275A50000A62B8 /* InformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CDAAFF3F2220D13600EA6E70 /* Solemate_app */ = {
 			isa = PBXGroup;
 			children = (
+				F9A8EBC822275A50000A62B8 /* InformationTableViewCell.swift */,
 				CDAAFF402220D13600EA6E70 /* AppDelegate.swift */,
 				CDAAFF422220D13600EA6E70 /* ViewController.swift */,
 				CDAAFF442220D13600EA6E70 /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A8EBC922275A50000A62B8 /* InformationTableViewCell.swift in Sources */,
 				CDAAFF432220D13600EA6E70 /* ViewController.swift in Sources */,
 				CDAAFF412220D13600EA6E70 /* AppDelegate.swift in Sources */,
 			);
@@ -363,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -508,6 +512,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Solemate_appUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,6 +532,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Solemate_appUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
