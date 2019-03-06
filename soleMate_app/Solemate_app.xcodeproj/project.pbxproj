@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD7F4F7E2227BA9F00F8015F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F4F7D2227BA9F00F8015F /* InformationViewController.swift */; };
+		CD7F4F802227C4D000F8015F /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F4F7F2227C4D000F8015F /* profileViewController.swift */; };
 		CDAAFF412220D13600EA6E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF402220D13600EA6E70 /* AppDelegate.swift */; };
+		CDAAFF432220D13600EA6E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF422220D13600EA6E70 /* ViewController.swift */; };
 		CDAAFF462220D13600EA6E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF442220D13600EA6E70 /* Main.storyboard */; };
 		CDAAFF482220D13600EA6E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF472220D13600EA6E70 /* Assets.xcassets */; };
 		CDAAFF4B2220D13600EA6E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */; };
 		CDAAFF562220D13600EA6E70 /* Solemate_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF552220D13600EA6E70 /* Solemate_appTests.swift */; };
 		CDAAFF612220D13600EA6E70 /* Solemate_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */; };
-		F9F4631C222CF37D0002774E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F4631B222CF37D0002774E /* ViewController.swift */; };
-		F9F4631E222CF3840002774E /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F4631D222CF3840002774E /* profileViewController.swift */; };
-		F9F46320222CF3890002774E /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F4631F222CF3890002774E /* InformationViewController.swift */; };
-		F9F46324222D0DE80002774E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F46323222D0DE80002774E /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD7F4F7D2227BA9F00F8015F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		CD7F4F7F2227C4D000F8015F /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		CDAAFF3D2220D13600EA6E70 /* Solemate_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solemate_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAAFF402220D13600EA6E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDAAFF422220D13600EA6E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDAAFF452220D13600EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDAAFF472220D13600EA6E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDAAFF4A2220D13600EA6E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,10 +51,6 @@
 		CDAAFF5C2220D13600EA6E70 /* Solemate_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solemate_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAAFF602220D13600EA6E70 /* Solemate_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solemate_appUITests.swift; sourceTree = "<group>"; };
 		CDAAFF622220D13600EA6E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9F4631B222CF37D0002774E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = soleMate_app/Controller/ViewController.swift; sourceTree = SOURCE_ROOT; };
-		F9F4631D222CF3840002774E /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = profileViewController.swift; path = soleMate_app/Controller/profileViewController.swift; sourceTree = SOURCE_ROOT; };
-		F9F4631F222CF3890002774E /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InformationViewController.swift; path = soleMate_app/Controller/InformationViewController.swift; sourceTree = SOURCE_ROOT; };
-		F9F46323222D0DE80002774E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 		CDAAFF342220D13600EA6E70 = {
 			isa = PBXGroup;
 			children = (
-				F9F46323222D0DE80002774E /* Extension.swift */,
 				CDAAFF3F2220D13600EA6E70 /* Solemate_app */,
 				CDAAFF542220D13600EA6E70 /* Solemate_appTests */,
 				CDAAFF5F2220D13600EA6E70 /* Solemate_appUITests */,
@@ -104,11 +101,11 @@
 		CDAAFF3F2220D13600EA6E70 /* Solemate_app */ = {
 			isa = PBXGroup;
 			children = (
-				F9F4631F222CF3890002774E /* InformationViewController.swift */,
+				CD7F4F7D2227BA9F00F8015F /* InformationViewController.swift */,
 				CDAAFF402220D13600EA6E70 /* AppDelegate.swift */,
-				F9F4631B222CF37D0002774E /* ViewController.swift */,
+				CDAAFF422220D13600EA6E70 /* ViewController.swift */,
 				CDAAFF442220D13600EA6E70 /* Main.storyboard */,
-				F9F4631D222CF3840002774E /* profileViewController.swift */,
+				CD7F4F7F2227C4D000F8015F /* profileViewController.swift */,
 				CDAAFF472220D13600EA6E70 /* Assets.xcassets */,
 				CDAAFF492220D13600EA6E70 /* LaunchScreen.storyboard */,
 				CDAAFF4C2220D13600EA6E70 /* Info.plist */,
@@ -265,11 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F46324222D0DE80002774E /* Extension.swift in Sources */,
-				F9F4631C222CF37D0002774E /* ViewController.swift in Sources */,
-				F9F46320222CF3890002774E /* InformationViewController.swift in Sources */,
-				F9F4631E222CF3840002774E /* profileViewController.swift in Sources */,
+				CDAAFF432220D13600EA6E70 /* ViewController.swift in Sources */,
 				CDAAFF412220D13600EA6E70 /* AppDelegate.swift in Sources */,
+				CD7F4F802227C4D000F8015F /* profileViewController.swift in Sources */,
+				CD7F4F7E2227BA9F00F8015F /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
